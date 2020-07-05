@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example Page</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>My Grocery List</h2>
+
+    <nav>
+      <ul>
+        <li>Milk</li>
+        <li>Cereal - coco -chex</li>
+        <li>fruits</li>
+        <ul>
+          <li>banana</li>
+          <li>apples</li>
+          <li>mangoes</li>
+        </ul>
+        <li>canned fish/chicken</li>
+      </ul>
+    </nav>
+    
+
+    <h2>Media section</h2>
+    <p>Welcome to the <span style="font-style: italic;">media-section</span>. Learn more about my <a
+        href="https://www.google.com/">favorite search engine</a>.</p>
+    <img src="assets/images/squirrel.jpg" alt="Squirrel on train tracks" />
+    <img src="assets/images/cat.jpg" alt="Cat" />
+
+    <h2>Music</h2>
+    <p>I play the ukulele and have included a sample recording on this page.</p>
+    <audio controls>
+      <source src="assets/audio/ukulele.mp3" type="audio/mpeg">
+      <source src="assets/audio/ukulele.ogg" type="audio/ogg">
+      <a href="assets/audio/ukulele.mp3">Ukulele audio recording</a>
+    </audio>
+
+    <h2>Video</h2>
+    <p>I have included an example video file on the page.</p>
+    <video controls>
+      <source src="assets/video/example.mp4" type="video/mp4">
+      <source src="assets/video/example.webm" type="video/webm">
+      <source src="assets/video/example.ogv" type="video/ogg">
+      Your web browser is outdated and does not support HTML video. Please consider <a href="http://browsehappy.com/"
+        target="_bkank">updating</a>.
+    </video>
+
+    <h1>Subject Heading</h1>
+    <h2>Key Point</h2>
+    <h3>Minor Point</h3>
+    <h4>Very Minor Point</h4>
+    <p>
+      Lorem ipsum dolor sit amet <strong>example strong</strong>, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet <em>example emphasis</em>, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt
+      ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+      <dfn>laborum</dfn>.
+    </p>
+
+    <h2>list</h2>
+    <h3>Unordered list</h3>
+    <ul>
+      <li>Milk</li>
+      <li>Bread</li>
+      <li>Carrots</li>
+    </ul>
+
+    <h3>Ordered list</h3>
+    <ol>
+      <li>Wake up</li>
+      <li>Brush teeth</li>
+      <li>Shower</li>
+      <li>Eat breakfast</li>
+    </ol>
+
+    <h3>Description list</h3>
+    <dl>
+      <dt>Title:</dt>
+      <dd>An Imaginary Book Title</dd>
+      <dt>Author:</dt>
+      <dd>Brad Schiff</dd>
+      <dd>John Doe</dd>
+      <dt>Number of Pages:</dt>
+      <dd>500</dd>
+    </dl>
+
+    <h2>Bold-italic</h2>
+    <p>When eating it is <strong>imperative</strong>that you chew.</p>
+    <p>The cat did <em>not</em> like the dog.</p>
+    <p>The word <dfn>tree</dfn> is generally used as a noun.</p>
+
+    <h2>Special charecters in html</h2>
+    <ul>
+      <li>Right single quote: &rsquo;</li>
+      <li>Left single quote: &lsquo;</li>
+      <li>Right double quote: &rdquo;</li>
+      <li>Left double quote: &ldquo;</li>
+      <li>Ampersands: &amp;</li>
+      <li>Greater than: &gt;</li>
+      <li>Less than: &lt;</li>
+      <li>Copyright: &copy;</li>
+      <li>Registered symbol: &reg;</li>
+      <li>Trademark symbol: &trade;</li>
+    </ul>
+
+    <section>
+      <h2>HTML Form Semantics</h2>
+      <form>
+        <label>First Name:
+          <input type="text" name="firstName">
+        </label>
+
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" type="text" name="lastName">
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </section>
+
+    <section>
+      <h2>Different types of form inputs</h2>
+      <form>
+        <h3>Example of an email input:</h3>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" />
+
+        <h3>Example of a telephone input:</h3>
+        <label for="telephone">Telephone:</label>
+        <input id="telephone" type="tel" name="telephone" />
+
+        <h3>Example of a multi-line input:</h3>
+        <label for="yourMessage">Your Message:</label>
+        <textarea id="yourMessage" name="yourMessage"></textarea>
+
+        <input type="submit" value="Save!" />
+
+      </form>
+    </section>
+
+    <section>
+      <h2>Choosing between a set of form input options</h2>
+      <form>
+        <h3>Example of &ldquo;Select&rdquo; input.</h3>
+        <label for="favoriteColor">What is your favorite color?</label>
+        <select id="favoriteColor" name="favoriteColor">
+          <option value="colorRed">Red</option>
+          <option value="colorOrange">Orange</option>
+          <option value="colorYellow">Yellow</option>
+        </select>
+
+        <h3>Example of &ldquo;Radio&rdquo; inputs.</h3>
+        <fieldset>
+          <legend>Which meal do you prefer? (choose one)</legend>
+          <input type="radio" id="breakfast1" name="favoriteMeal1" value="meal1"><label
+            for="breakfast1">Breakfast</label>
+          <input type="radio" id="brunch1" name="favoriteMeal1" value="meal2"><label for="brunch1">Brunch</label>
+          <input type="radio" id="lunch1" name="favoriteMeal1" value="meal3"><label for="lunch1">Lunch</label>
+        </fieldset>
+
+        <h3>Example of &ldquo;Checkbox&rdquo; inputs.</h3>
+        <fieldset>
+          <legend>Which meals do you enjoy? (check all that apply)</legend>
+          <input type="checkbox" id="breakfast2" name="favoriteMeal2" value="meal1"><label
+            for="breakfast2">Breakfast</label>
+          <input type="checkbox" id="brunch2" name="favoriteMeal2" value="meal2"><label for="brunch2">Brunch</label>
+          <input type="checkbox" id="lunch2" name="favoriteMeal2" value="meal3"><label for="lunch2">Lunch</label>
+        </fieldset>
+
+        <input type="submit" value="Save!" />
+
+      </form>
+    </section>
+
+    <section>
+      <h2>Table - groceries list data</h2>
+      <table class="grocery-list">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Aisle</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bread</td>
+            <td>2</td>
+            <td>$3.00</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Milk</td>
+            <td>1</td>
+            <td>$2.50</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td>N/A</td>
+            <td>$5.50</td>
+            <td>N/A</td>
+          </tr>
+        </tfoot>
+      </table>
+  
+    </section>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+</body>
+
+</html>
